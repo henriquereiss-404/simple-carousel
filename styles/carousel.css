@@ -1,0 +1,20 @@
+ul.slides {
+    margin: 16px 0;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul.slide-position {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 8px 8px 8px;
+}
+
+ul.slide-position li {
+    width: 8px; height: 8px;
+    border-radius: 100%;
+    background-color: #dcdcdc;
+}
+
+ul.slide-position li.active { background-color: #8815e2; }
