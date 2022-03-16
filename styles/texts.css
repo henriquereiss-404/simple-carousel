@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+body { font-family: 'Ubuntu', sans-serif; color: #111; }
+
+header h1 { font-size: 24px; font-weight: 700; }
+header span { font-size: 16px; font-weight: 300; }
+header span.rainbow { font-size: 32px; }
