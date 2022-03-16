@@ -1,8 +1,26 @@
 ul.slides {
+    max-width: 686px;
     margin: 16px 0;
     display: grid;
     grid-gap: 16px;
     grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+ul.slides a.arrow {
+    position: absolute;
+    color: #fff;
+    text-shadow: 0 0 8px black;
+}
+
+ul.slides a.previous-button {
+    top: 50%; left: 16px;
+    transform: translateY(-50%);
+}
+
+ul.slides a.next-button {
+    top: 50%; right: 16px;
+    transform: translateY(-50%);
 }
 
 ul.slide-position {
