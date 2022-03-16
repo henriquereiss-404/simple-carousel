@@ -1,5 +1,7 @@
+import slide from './slider.js'
+
 function start() {
-   console.log('this is working!')
+   slide()
 }
 
 window.addEventListener('load', start)
