@@ -7,6 +7,8 @@ body {
 
 /* carousel */
 body section {
+    max-width: 604px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
