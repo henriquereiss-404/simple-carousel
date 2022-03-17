@@ -1,7 +1,6 @@
 ul.slides {
     margin: 16px 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     transition: transform 1s;
     position: relative;
 }
