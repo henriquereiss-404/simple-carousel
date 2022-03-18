@@ -7,7 +7,7 @@ body {
 
 /* carousel */
 body section {
-    max-width: 604px;
+    max-width: 608px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
